@@ -13,4 +13,10 @@ public class TestController {
         return Map.of("test","kongsan111");
     }
     
+    
+    @GetMapping("zhaoxianqiang")
+    public Map<String,String> test(){
+        return Map.of("test","zhaoxianqiang");
+    }
+    
 }
