@@ -11,13 +11,17 @@ public class TestController {
     @GetMapping("test")
     public Map<String,String> test(){
 
-
-        return Map.of("test","kongsan111222333444555666yinxinchen");
+        return Map.of("test","kongsan111222333444555666maheyinxinchen");
 
     }
     
     
     @GetMapping("zhaoxianqiang")
+    public Map<String,String> test(){
+        return Map.of("test","zhaoxianqiang111222");
+    }
+    
+	 @GetMapping("mahe")
     public Map<String,String> test(){
         return Map.of("test","zhaoxianqiang111222");
     }
