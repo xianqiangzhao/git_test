@@ -10,14 +10,7 @@ public class TestController {
 
     @GetMapping("test")
     public Map<String,String> test(){
-<<<<<<< HEAD
         return Map.of("test","kongsan111222333444555666maheyinxinchenzhaoxianqiang");
-=======
-
-
-        return Map.of("test","kongsan111222333444555666");
-
->>>>>>> parent of 99a4790... update to yinxinchen
     }
     
     
